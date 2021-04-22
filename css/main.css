@@ -96,29 +96,26 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
-  height: 100%;
+  background-color: rgba(210, 210, 198, 1);
+  height: auto;
   width: 100%;
+  font-size: 16px;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 0 2em;
-  font-size: 1.25em;
-  height: 100%;
-  color: #fff;
+  padding: 0 3em;
+  height: auto;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
 }
 
 header,
 footer {
-  background-color: #222;
-  height: 80px;
-  width: 100%;
-}
-
-main {
-  background-color: #ccc;
-  height: 250px;
+  height: 100px;
   width: 100%;
 }
 
@@ -128,6 +125,31 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.4em;
+}
+
+header {
+  margin-bottom: -0.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h2 span {
+  text-decoration: underline;
+  text-decoration-color: rgba(46, 78, 11, 0.72);
+}
+
+main {
+  box-sizing: border-box;
+  background-color: rgba(46, 78, 11, 0.72);
+  height: auto;
+  width: 100%;
+  line-height: 1.85em;
+  padding: 0.5em 1.75em;
+  margin: 1rem auto 2rem auto;
+  color: rgba(210, 210, 210, 1);
 }
 
 .flex-container {
@@ -141,12 +163,26 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  background-color: rgba(46, 78, 11, 0.318);
+  line-height: 2em;
+  font-size: 1.2em;
   width: 30%;
-  height: 200px;
+  height: auto;
+}
+
+.flex-items p {
+  padding: 1em 2em;
+}
+
+footer {
+  margin-top: 0.5rem;
+  justify-content: space-around;
+}
+
+footer a img {
+  width: 50px;
+  height: auto;
+  padding: 0 2.5rem;
 }
 
 /* ==========================================================================
